@@ -1,0 +1,93 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'film.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Film _$FilmFromJson(Map<String, dynamic> json) => Film(
+      json['kinopoiskId'] as int,
+      json['imdbId'] as String,
+      json['nameRu'] as String,
+      json['nameEn'] as String?,
+      json['nameOriginal'] as String,
+      json['posterUrl'] as String,
+      json['posterUrlPreview'] as String,
+      json['reviewsCount'] as int,
+      (json['ratingGoodReview'] as num).toDouble(),
+      json['ratingGoodReviewVoteCount'] as int,
+      (json['ratingKinopoisk'] as num).toDouble(),
+      json['ratingKinopoiskVoteCount'] as int,
+      (json['ratingImdb'] as num).toDouble(),
+      json['ratingImdbVoteCount'] as int,
+      (json['ratingFilmCritics'] as num).toDouble(),
+      json['ratingFilmCriticsVoteCount'] as int,
+      (json['ratingAwait'] as num?)?.toDouble(),
+      json['ratingAwaitCount'] as int,
+      (json['ratingRfCritics'] as num?)?.toDouble(),
+      json['ratingRfCriticsVoteCount'] as int,
+      json['webUrl'] as String,
+      json['year'] as int,
+      json['filmLength'] as int,
+      json['slogan'] as String,
+      json['description'] as String,
+      json['shortDescription'] as String,
+      json['editorAnnotation'] as String?,
+      json['isTicketsAvailable'] as bool,
+      json['productionStatus'] as String?,
+      json['startYear'] as int?,
+      json['endYear'] as int?,
+      json['serial'] as bool,
+      json['shortFilm'] as bool,
+      json['completed'] as bool,
+      json['has3D'] as bool,
+      json['hasImax'] as bool,
+      (json['countries'] as List<dynamic>)
+          .map((e) => Country.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['genres'] as List<dynamic>)
+          .map((e) => Genre.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$FilmToJson(Film instance) => <String, dynamic>{
+      'kinopoiskId': instance.kinopoiskId,
+      'imdbId': instance.imdbId,
+      'nameRu': instance.nameRu,
+      'nameEn': instance.nameEn,
+      'nameOriginal': instance.nameOriginal,
+      'posterUrl': instance.posterUrl,
+      'posterUrlPreview': instance.posterUrlPreview,
+      'reviewsCount': instance.reviewsCount,
+      'ratingGoodReview': instance.ratingGoodReview,
+      'ratingGoodReviewVoteCount': instance.ratingGoodReviewVoteCount,
+      'ratingKinopoisk': instance.ratingKinopoisk,
+      'ratingKinopoiskVoteCount': instance.ratingKinopoiskVoteCount,
+      'ratingImdb': instance.ratingImdb,
+      'ratingImdbVoteCount': instance.ratingImdbVoteCount,
+      'ratingFilmCritics': instance.ratingFilmCritics,
+      'ratingFilmCriticsVoteCount': instance.ratingFilmCriticsVoteCount,
+      'ratingAwait': instance.ratingAwait,
+      'ratingAwaitCount': instance.ratingAwaitCount,
+      'ratingRfCritics': instance.ratingRfCritics,
+      'ratingRfCriticsVoteCount': instance.ratingRfCriticsVoteCount,
+      'webUrl': instance.webUrl,
+      'year': instance.year,
+      'filmLength': instance.filmLength,
+      'slogan': instance.slogan,
+      'description': instance.description,
+      'shortDescription': instance.shortDescription,
+      'editorAnnotation': instance.editorAnnotation,
+      'isTicketsAvailable': instance.isTicketsAvailable,
+      'productionStatus': instance.productionStatus,
+      'startYear': instance.startYear,
+      'endYear': instance.endYear,
+      'serial': instance.serial,
+      'shortFilm': instance.shortFilm,
+      'completed': instance.completed,
+      'has3D': instance.has3D,
+      'hasImax': instance.hasImax,
+      'countries': instance.countries,
+      'genres': instance.genres,
+    };
